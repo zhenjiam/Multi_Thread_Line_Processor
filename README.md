@@ -53,7 +53,7 @@ Furthermore, in your program these 4 threads must communicate with each other us
 
 # Multi-Threading Requirements
 Pipeline of threads that gets data from stdin, processes it and displays it to stdout
-<a ref
+<img width="622" alt="Multi-Thread-Process-Structure" src="https://user-images.githubusercontent.com/84590087/216152749-d9bcaf10-b24e-4892-8bba-23e5da4e21b6.png">
   - Each pair of communicating threads must be constructed as a producer/consumer system.
   - If a thread T1 gets its input data from another thread T0, and T1 outputs data for use by another thread T2, then
       - T1 acts as a consumer with respect to T0 and T0 plays the role of T1’s producer
